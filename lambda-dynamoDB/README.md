@@ -2,6 +2,17 @@
 
 > As funções a seguir são exemplos de códigos lambda que realizam operações simples em tabelas do DynamoDB.
 
+Para o estudo, utilizei a tabela **produto** que tem a seguinte estrutura:
+
+```json
+produto {
+    “id_produto”: [partition key] int,
+    “nome_produto”: string,
+    “categoria”: [global secondary index] string,
+    “valor”: int
+}
+```
+
 #### Operações CRUD (Create-Read-Update-Delete)
 
 - **createItemDynamoDB.py:** recebe um Item como evento (JSON) e faz a inserção desse Item em uma tabela;
