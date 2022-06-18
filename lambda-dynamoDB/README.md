@@ -4,7 +4,7 @@
 
 Para o estudo, utilizei a tabela **produto** que tem a seguinte estrutura:
 
-```json
+```js
 produto {
     “id_produto”: [partition key] int,
     “nome_produto”: string,
