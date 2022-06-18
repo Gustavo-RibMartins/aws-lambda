@@ -15,10 +15,10 @@ produto {
 
 #### Operações CRUD (Create-Read-Update-Delete)
 
-- **createItemDynamoDB.py:** recebe um Item como evento (JSON) e faz a inserção desse Item em uma tabela;
+- **[createItemDynamoDB.py](https://github.com/Gustavo-RibMartins/aws-lambda/blob/develop/lambda-dynamoDB/createItemDynamoDB.py "Create Item"):** recebe um Item como evento (JSON) e faz a inserção desse Item em uma tabela;
 
-- **deleteItemDynamoDB.py:** deleta um Item em uma tabela com uma Partition Key específica;
+- **[deleteItemDynamoDB.py](https://github.com/Gustavo-RibMartins/aws-lambda/blob/develop/lambda-dynamoDB/deleteItemDynamoDB.py "Delete Item"):** deleta um Item em uma tabela com uma Partition Key específica;
 
-- **updateItemDynamoDB.py:** recebe uma Partition Key como evento de entrada (JSON) e atualiza um atributo específico desse campo;
+- **[updateItemDynamoDB.py](https://github.com/Gustavo-RibMartins/aws-lambda/blob/develop/lambda-dynamoDB/updateItemDynamoDB.py "Update Item"):** recebe uma Partition Key como evento de entrada (JSON) e atualiza um atributo específico desse campo;
 
 - **readItemDynamoDB.py:** em desenvolvimento...
